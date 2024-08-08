@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import WelcomeBanner from './_components/WelcomeBanner'
+import CoursesList from './_components/CoursesList'
 
 function Courses() {
   return (
@@ -8,11 +10,13 @@ function Courses() {
          <WelcomeBanner/>
       </div>
 
+      {/*Course List */}
+      <CoursesList/>
+
       <div>
         Right section
       </div>      
   </div>
   )
 }
-
 export default Courses
