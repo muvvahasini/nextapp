@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button"
+
 import Link from 'next/link'
 import mvgbackgroundImage from "../../public/mvgbackgroundImage.jpg";
-import mvglogo from "../../public/mvglogo.jpg"
+
 export default function Home() {
   return (
     <div>
@@ -21,7 +22,7 @@ export default function Home() {
         }}>INNOVATIONS</p>
         </div>
         <div className="flex justify-between gap-5 p-2 font-500 text-[20px]">
-        <p>Features</p>
+        <a href="#dataEl">Features</a>
         <p>About us</p>
         <p>Contact us</p>
         </div>
@@ -51,7 +52,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        
+        <p id="dataEl">data</p>
       </div>
     </div>
   );
