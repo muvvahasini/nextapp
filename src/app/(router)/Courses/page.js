@@ -8,13 +8,14 @@ function Courses() {
     <div className='bg-slate-50 md:grid-cols-3  h-screen p-3 grid grid-cols-1'>
       <div className='col-span-2'>
          <WelcomeBanner/>
-         <CoursesList/> 
       </div>
+
+      {/*Course List */}
+      <CoursesList/>
+
       <div>
         Right section
-      </div>
-      {/*Course List */}
-           
+      </div>      
   </div>
   )
 }

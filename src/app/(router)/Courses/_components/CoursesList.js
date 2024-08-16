@@ -1,6 +1,5 @@
 import GlobalApi from '@/app/_utils/GlobalApi'
 import React ,{useEffect , useState} from 'react'
-import { gql} from 'graphql-request'
 
 export default function CoursesList() {
 
@@ -16,10 +15,6 @@ export default function CoursesList() {
         }) 
     }
   return (
-    <div className='p-5 bg-white rounded-lg'>
-      <div>
-        <h1 className='text-[20px] font-bold text-primary'>All Courses</h1>
-      </div>
-    </div>
+    <div>CoursesList</div>
   )
 }
